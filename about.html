@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="fontawesome/css/fontawesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>HR Course</title>
+</head>
+
+<body data-spy="scroll" data-target="#navbarResponsive">
+
+    <!--NAVIGATION-->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <i class="fa fa-graduation-cap fa-lg" style="color: #1ebba3;" aria-hidden="true"></i>
+                <span class="text-uppercase course-enter" style="font-weight:700;"> Hr курсы</span>
+            </a>
+            <button class="navbar-toggler" data-target="#navbarCollapse" data-toggle="collapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav ml-auto text-uppercase">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Главная</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="about.html" class="nav-link">Про Нас</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="course.html" class="nav-link">Курсы</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--END NAVIGATION-->
+    <!--START PAGE HEADER-->
+    <header id="page-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 m-auto text-center">
+                    <h1 style="text-transform: uppercase;">Про Нас</h1>
+                    <p>Мы работаем, учимся, стараемся создавать, делимся знаниями</p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--END PAGE HEADER-->
+    <section id="about" class="py-3">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-md-6">
+                    <h1>Чем мы занимаемся?</h1>
+                    <p>Работаем выполняя свои трудовые обязанности. Можете ознакомится с должностными инструкциями 1,2,3,4,5,6,7 </p>
+                </div>
+                <div class="col-md-6">
+                    <img class="img-fluid rounded-lg d-none d-md-block" src="./img/about_01.jpg" alt="">
+                </div>
+            </div>
+            <div class="row mb-5">
+                <div class="col-md-6">
+                    <img class="img-fluid rounded-lg d-none d-md-block" src="./img/about_02.jpg" alt="">
+                </div>
+                <div class="col-md-6">
+                    <h1>Как мы понимаем работу?</h1>
+                    <p>Работа дает нам стимул действовать. Точка начала развития - это наша работа. Смысл жизни в работе также как и семья, друзя, наше видимое окружение.</p>
+                </div>
+            </div>
+            <div class="row mb-5">
+                <div class="col-md-6">
+                    <h1>Как работать эффективно? Наши методы.</h1>
+                    <p>Любить работу. Трудится для детей, и так далее...</p>
+                </div>
+                <div class="col-md-6">
+                    <img class="img-fluid rounded-lg d-none d-md-block" src="./img/about_03.jpg" alt="">
+                </div>
+            </div>
+            <div class="row mb-5">
+                <div class="col-md-6">
+                    <img class="img-fluid rounded-lg d-none d-md-block" src="./img/about_04.jpg" alt="">
+                </div>
+                <div class="col-md-6">
+                    <h1>Видимый результат нашей работы.</h1>
+                    <p>Компания выполняет планы. Работники работают слажано. Повышаем качество самосознания.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--START FOOTER SECTION-->
+    <footer id="main-footer" class="text-center text-white p-4">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p>Copyright &copy;
+                        <span id="year"> HR Курсы</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--START FOOTER SECTION-->
+
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/all.js"></script>
+    <script>
+        $('#year').text(new Date().getFullYear());
+        //animation on a scroll
+    </script>
+</body>
+
+</html>
